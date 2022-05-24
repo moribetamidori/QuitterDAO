@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import myEpicNft from '../utils/MyEpicNFT.json';
 
-
+declare const window: any;
 export default function RoadMap() {
     const [currentAccount, setCurrentAccount] = useState("");
     const [totalSupply, setTotalSupply] = useState(0);
@@ -100,7 +100,7 @@ export default function RoadMap() {
             <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
                 <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
                 <span className="block">The most dangerous of all behaviors may consist of</span>
-                <span className="block">doing things "because we're supposed to". </span>
+                <span className="block">doing things &quot;because we&apos;re supposed to&quot;. </span>
                 </h2>
                 <p className="mt-4 text-lg leading-6 text-indigo-200">- Marshall B. Rosenberg</p>
                 {currentAccount === "" ? (

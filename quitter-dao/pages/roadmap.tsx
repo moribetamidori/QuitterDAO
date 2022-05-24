@@ -30,7 +30,7 @@ export default function RoadMap() {
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="text-3xl mb-1 text-sm font-extrabold leading-none text-[#4f46e5] dark:text-gray-500">50%</time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Snapshot Proposal Integration + Fund Distribution</h3>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">Now we have gathered some funds, it's time to help more prospective quitters to quit their job. All current holders of $QUIT will be able to make a proposal and vote other people's proposal on Snapshot. We will do it every other week and distribute $10,000 worth of fund to the top 3 quitters in the rate of 50%, 30%, and 20% respectively until all fund is exhausted.</p>
+                <p className="text-base font-normal text-gray-500 dark:text-gray-400">Now we have gathered some funds, it&apos;s time to help more prospective quitters to quit their job. All current holders of $QUIT will be able to make a proposal and vote other people&apos;s proposal on Snapshot. We will do it every other week and distribute $10,000 worth of fund to the top 3 quitters in the rate of 50%, 30%, and 20% respectively until all fund is exhausted.</p>
             </li>
             <li className="ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

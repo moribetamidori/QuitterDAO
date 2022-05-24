@@ -24,7 +24,7 @@ export default function Home(props:Props){
             <span className="block text-indigo-600">Quit.</span>
           </h1>
           <p className="mt-3 mb-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            <span>Want to quit your corporate job but don't have the balls? </span> <br></br>
+            <span>Want to quit your corporate job but don&apos;t have the balls? </span> <br></br>
             <span>Quit vicariously with QuitterDAO. 🤪 </span>
             </p>
             <div className="mb-3 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
