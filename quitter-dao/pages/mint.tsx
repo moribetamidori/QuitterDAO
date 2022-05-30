@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import myEpicNft from '../utils/MyEpicNFT.json';
 
 declare const window: any;
-export default function RoadMap() {
+export default function Mint() {
     const [currentAccount, setCurrentAccount] = useState("");
     const [totalSupply, setTotalSupply] = useState(0);
    
@@ -68,7 +68,11 @@ export default function RoadMap() {
             const connectedContract = new ethers.Contract(CONTRACT_ADDRESS, myEpicNft.abi, signer);
       
             console.log("Going to pop wallet now to pay gas...")
-            let nftTxn = await connectedContract.mint(1);
+            let nftTxn = await connectedContract.mint(1, {
+              gasLimit: 285000,
+              gasPrice: ethers.utils.parseUnits("30", "gwei"),
+              value: ethers.utils.parseUnits("5.13", "ether"),
+            });
       
             console.log("Mining...please wait.")
             await nftTxn.wait();
